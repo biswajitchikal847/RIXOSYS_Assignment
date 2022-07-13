@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainDiv{
+   display: flex;
+}
+#form_container{
+    width: 30%;
+    height: 95vh;
+    /* display: flex; */
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%), 0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+    margin-top: 20px;
+    background-color: white;
+}
+#form_container > p:first-child{
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+#form{
+    width: 90%;
+    margin: auto;
+    margin-top: 25px;
+}
+label ,input{
+    margin-top: 15px;
+}
+#form > p {
+    margin-top: 15px;
+}
+
+#text_field > input{
+    width: 60%;
+    margin-left: 15px;
+    height: 35px;
+    /* font-size: 18px; */
+    color: black;
+    font-size: 18px;
+}
+#birthday{
+    padding-top: 15px;
+    height: 35px;
+    width: 40%;
+    margin-bottom: 10px;
+}
+#submit > button{
+    width: 90%;
+    height: 30px;
+    border: none;
+    margin-top: 25px;
+    background-color: #FFD54F;
+    color: rgb(14, 13, 13);
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+#submit{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+   
+}
+select{
+    width: 40%;
+    margin-top: 10px;
+    /* border: none; */
+
+}
+#data_container{
+    width: 55%;
+    height: 95vh;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    box-shadow: 0 8px 10px -3px rgb(0 0 0 / 10%), 0 4px 6px -2px rgb(0 0 0 / 10%), 0 -8px 12px 0 rgb(0 0 0 / 5%), 0 -2px 3px -2px rgb(0 0 0 / 1%);
+   margin-left: 20px;
+}
+
+#data_container > p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+::placeholder{
+    font-weight: 600;
+    color: rgb(192, 194, 196);
+   text-align: center;
+   font-size: 14px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+}
+th{
+    background-color: #FFD54F;
+    border: 2px solid black;
+}
+tr{
+    border: 2px solid black;
+}
+td{
+    border: 2px solid black;
+    padding-left: 4px;
+    
+}
+#delete_btn{
+    cursor: pointer;
+    background-color: rgb(247, 127, 127);
+    color: rgb(29, 28, 28);
+}
